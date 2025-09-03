@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 챗봇</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- AI 캐릭터 -->
+    <div id="character">
+        <!-- 캐릭터 이미지를 여기에 추가할 수 있습니다. -->
+        <img src="https://via.placeholder.com/150" alt="AI Character">
+    </div>
+
+    <!-- 채팅창 -->
+    <div id="chat-container" class="hidden">
+        <div id="chat-header">
+            AI Assistant
+            <button id="close-chat">X</button>
+        </div>
+        <div id="chat-messages">
+            <!-- 메시지가 여기에 표시됩니다. -->
+        </div>
+        <div id="chat-input-container">
+            <input type="text" id="chat-input" placeholder="메시지를 입력하세요...">
+            <button id="send-button">전송</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
