@@ -6,7 +6,7 @@ const path = require('path');
 const axios = require('axios');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3034;
 
 // 정적 파일(HTML, CSS, JS)을 제공하기 위한 미들웨어 설정
 app.use(express.static(path.join(__dirname, '')));
